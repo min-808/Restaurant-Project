@@ -16,13 +16,18 @@
     text-align: center;
 }
 
-.drinkSeparator, .foodSeparator {
+.welcomeMsg {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.drinkSeparator, .foodSeparator, .dessertSeparator {
     font-weight: bold;
 }
 
 .halfWidth {
     position: relative;
-    max-width: 100px;
+    max-width: 90px;
     margin-left: 0;
 }
 
