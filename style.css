@@ -1,0 +1,51 @@
+.enterPage {
+    position: absolute;
+    padding: 50px;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(217, 217, 217);
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.drinkSeparator, .foodSeparator {
+    font-weight: bold;
+}
+
+.halfWidth {
+    position: relative;
+    max-width: 100px;
+    margin-left: 0;
+}
+
+.itemOne, .itemTwo {
+    position: relative;
+    text-align: left;
+    width: 400px;
+    height: auto;
+    background-color: #d4c3b3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+    margin: 12px;
+    word-wrap: break-word;
+}
+
+.itemOneContent {
+    margin-left: 20px;
+}
+
+.coffee {
+    width: 80px;
+    height: auto;
+}
